@@ -1,6 +1,8 @@
-<% provide(:title, "Home") %>
-<span><%= link_to "About", static_pages_about_path %></span>
-<span><%= link_to "Help", static_pages_help_path%></span>
-<h1>Welcome to my Porfolio</h1>
-<p>Find me on Facebook <a target="_blank" href="https://www.facebook.com/tian.d03/">Hoang Thien</a> 
-and Instagram <a target="_blank" href="https://www.instagram.com/tian.d03/">tian.d03</a></p>
+<div class="center jumbotron">
+    <h1>Welcome to my Porfolio</h1>
+    <p>Find me on Facebook <a target="_blank" href="https://www.facebook.com/tian.d03/">Hoang Thien</a> 
+    and Instagram <a target="_blank" href="https://www.instagram.com/tian.d03/">tian.d03</a></p>
+    <%= link_to "Subscribe now!",signup_path,class:"btn btn-lg btn-primary"%>
+</div>
+<%= link_to image_tag("kitten.jpg", alt: "My ultimate boss", width: "600"),
+"https://www.ﬂickr.com/photos/deborah_s_perspective/14144861329" %>
